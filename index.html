@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>telc B2 Beruf Vorbereitung</title>
+  <title>Deutsch Lernen</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -58,9 +58,10 @@
     }
     .file-list a:hover { background: #e8f0fe; border-color: #3498db; }
     .file-icon { font-size: 18px; flex-shrink: 0; }
+    .file-src {align-items:center;}
     .file-name { flex: 1; }
     .file-tag {
-      font-size: 11px;
+      font-size: 16px;
       background: #f0f0f0;
       color: #666;
       border-radius: 4px;
@@ -111,69 +112,99 @@
       font-size: 12px;
       color: #bbb;
     }
+    ul{
+        display:flex;
+        list-style-type:none;
+    }
+    ul li{
+      flex: 1;
+    }
   </style>
 </head>
 <body>
 <div class="container">
 
   <div class="header">
-    <h1>telc B2 Beruf Vorbereitung</h1>
-    <p>Lernmaterialien zur Vorbereitung auf den Deutsch-Test für den Beruf B2</p>
+    <h1>Deutsch Lernen</h1>
+    <p>Lernmaterialien zur Vorbereitung auf Prüfungen für Goethe‑Zertifikate, TELC und ÖSD (A1–C1)</p>
   </div>
 
-  <p class="section-title">Wortschatz</p>
-  <ul class="file-list">
+  <p class="section-title">Deutsch Niveau</p>
+  <ul id="nav">
     <li>
       <a href="Wortschatz_Klett-Aspekte-Beruf-B2.html">
-        <span class="file-icon">📖</span>
-        <span class="file-name">Klett-Aspekte-Beruf-B2</span>
-        <span class="file-tag">HTML</span>
+        <!--span class="file-src">./img/aspekte-neu-B2.png</span!-->
+        <span class="file-name">Deutsch A1</span>
+        <img class="file-src" src="./img/A1.jpg" alt="A1" width="86" height="100">
+        <span class="file-tag"></span>
       </a>
     </li>
     <li>
-      <a href="Wortschatz_Nomen-Verben-Verbindungen.html">
-        <span class="file-icon">📖</span>
-        <span class="file-name">Nomen-Verben-Verbindungen</span>
-        <span class="file-tag">HTML</span>
+      <li>
+      <a href="Wortschatz_Klett-Aspekte-Beruf-B2.html">
+        <!--span class="file-icon">./img/aspekte-neu-B2.png</span!-->
+        <span class="file-name">Deutsch A2</span>
+        <img src="./img/A2.jpg" alt="A2" width="86" height="100">
+        <span class="file-tag"></span>
       </a>
+    </li>
     </li>
     <li>
-      <a href="Wortschatz_Verben-Nomen-Adjektive-mit-Praepositionen.html">
-        <span class="file-icon">📖</span>
-        <span class="file-name">Verben-Nomen-Adjektive-mit-Präpositionen</span>
-        <span class="file-tag">HTML</span>
+      <li>
+      <a href="Wortschatz_Klett-Aspekte-Beruf-B2.html">
+        <!--span class="file-icon">./img/aspekte-neu-B2.png</span!-->
+        <span class="file-name">Deutsch B1</span>
+        <img src="./img/B1.jpg" alt="B1" width="86" height="100">
+        <span class="file-tag"></span>
       </a>
     </li>
-    <li>      
-      <a href="Wortschatz_unregelmaessige-Verben.html">
-        <span class="file-icon">📖</span>
-        <span class="file-name">Unregelmaessige Verben</span>
-        <span class="file-tag">HTML</span>
+    </li>
+    <li>
+      <li>
+      <a href="Wortschatz_Klett-Aspekte-Beruf-B2.html">
+        <!--span class="file-icon">./img/aspekte-neu-B2.png</span!-->
+        <span class="file-name">Deutsch B2</span>
+        <img src="./img/B2.jpg" alt="B2" width="86" height="100">
+        <span class="file-tag"></span>
       </a>
+    </li>
     </li>
   </ul>
 
-  <p class="section-title">Prüfungsvorbereitung</p>
-  <ul class="file-list">
+  <p class="section-title">Beruf Deutsch</p>
+  <ul id="nav">
     <li>
-      <a href="LesenII_Einweisungen und Unterweisungen verstehen.html">
-        <span class="file-icon">📄</span>
-        <span class="file-name">Lesen II: Einweisungen und Unterweisungen verstehen</span>
-        <span class="file-tag">HTML</span>
-      </a>
-    </li>  
-    <li>
-      <a href="SchreibenII_Forumsbeitrag_Redemittel.html">
-        <span class="file-icon">📄</span>
-        <span class="file-name">Schreiben II: Forumsbeitrag Redemittel</span>
-        <span class="file-tag">PDF</span>
+      <a href="Wortschatz_Klett-Aspekte-Beruf-B2.html">
+        <!--span class="file-src">./img/B2_beruf.png</span!-->
+        <span class="file-name">Beruf Deutsch B1</span>
+        <img class="file-src" src="./img/B1_beruf.png" alt="Aspskte Neu B2" width="86" height="100">
+        <span class="file-tag"></span>
       </a>
     </li>
+    <li>
+      <li>
+      <a href="./B2-Beruf-Vorbereitung-main/B2-Beruf-main.html">
+        <!--span class="file-icon">./img/aspekte-neu-B2.png</span!-->
+        <span class="file-name">Beruf Deutsch B2</span>
+        <img src="./img/B2_beruf.png" alt="Aspskte Neu B2" width="86" height="100">
+        <span class="file-tag"></span>
+      </a>
+    </li>
+    </li>
+    <li>
+      <li>
+      <a href="Wortschatz_Klett-Aspekte-Beruf-B2.html">
+        <!--span class="file-icon">./img/aspekte-neu-B2.png</span!-->
+        <span class="file-name">Beruf Deutsch C1</span>
+        <img src="./img/C1_beruf.png" width="86" height="100">
+        <span class="file-tag"></span>
+      </a>
+    </li>
+   
   </ul>
-
   <button class="about-btn" onclick="toggleAbout()">
     <em class="about-arrow" id="arrow">▶</em>
-    Über dieses Projekt / About / 关于该文档
+    Über dieses Projekt / About / 关于
   </button>
   <div class="about-content" id="about">
 
